@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D6028A32204F668006FD994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6028A22204F668006FD994 /* AppDelegate.swift */; };
-		3D6028A52204F668006FD994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6028A42204F668006FD994 /* ViewController.swift */; };
 		3D6028A82204F668006FD994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6028A62204F668006FD994 /* Main.storyboard */; };
 		3D6028AB2204F668006FD994 /* HellowWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D6028A92204F668006FD994 /* HellowWorld.xcdatamodeld */; };
 		3D6028AD2204F668006FD994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6028AC2204F668006FD994 /* Assets.xcassets */; };
 		3D6028B02204F668006FD994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6028AE2204F668006FD994 /* LaunchScreen.storyboard */; };
 		3D6028BB2204F668006FD994 /* HellowWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6028BA2204F668006FD994 /* HellowWorldUITests.swift */; };
+		3D6028C62204FE52006FD994 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6028C52204FE52006FD994 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		3D60289F2204F667006FD994 /* HellowWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellowWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6028A22204F668006FD994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D6028A42204F668006FD994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D6028A72204F668006FD994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D6028AA2204F668006FD994 /* HellowWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HellowWorld.xcdatamodel; sourceTree = "<group>"; };
 		3D6028AC2204F668006FD994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		3D6028B62204F668006FD994 /* HellowWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6028BA2204F668006FD994 /* HellowWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellowWorldUITests.swift; sourceTree = "<group>"; };
 		3D6028BC2204F668006FD994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6028C52204FE52006FD994 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				3D6028A22204F668006FD994 /* AppDelegate.swift */,
-				3D6028A42204F668006FD994 /* ViewController.swift */,
 				3D6028A62204F668006FD994 /* Main.storyboard */,
 				3D6028AC2204F668006FD994 /* Assets.xcassets */,
 				3D6028AE2204F668006FD994 /* LaunchScreen.storyboard */,
 				3D6028B12204F668006FD994 /* Info.plist */,
 				3D6028A92204F668006FD994 /* HellowWorld.xcdatamodeld */,
+				3D6028C52204FE52006FD994 /* HelloWorldViewController.swift */,
 			);
 			path = HellowWorld;
 			sourceTree = "<group>";
@@ -201,8 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6028AB2204F668006FD994 /* HellowWorld.xcdatamodeld in Sources */,
-				3D6028A52204F668006FD994 /* ViewController.swift in Sources */,
 				3D6028A32204F668006FD994 /* AppDelegate.swift in Sources */,
+				3D6028C62204FE52006FD994 /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = randallyoung.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = randallyoung.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = randallyoung.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = randallyoung.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
